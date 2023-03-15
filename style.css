@@ -1,0 +1,76 @@
+body{
+   padding: 0;
+   margin: 0;
+}
+
+fieldset{
+    width: 500px;
+
+}
+
+
+
+input{
+   
+    display: flex;
+    align-content: center;
+   align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    padding: 15px 20px 15px 50px;
+
+}
+input:focus{
+    background-color: rgb(237, 255, 155);
+}
+
+
+
+
+
+
+input[type=text] {
+
+  background-image: url('images/1.png');
+
+}
+
+input[type=password] {
+
+    background-image: url('images/2.png');
+
+  }
+  input[type=email] {
+
+    background-image: url('images/3.png');
+
+  }
+
+
+
+
+  .btn {
+    background-color: dodgerblue;
+    color: white;
+    margin-top: 50px;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    text-align: center;
+ 
+  }
+  
+  .btn:hover {
+    opacity: 2;
+    background-color: rgb(255, 197, 6);
+  
+  }
